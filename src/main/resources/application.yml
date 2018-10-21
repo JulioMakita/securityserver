@@ -7,13 +7,13 @@ server:
 security:
   oauth2:
     resource:
-      userInfoUri: https://dev-648083.oktapreview.com/oauth2/default/v1/userinfo
+      userInfoUri: https://{your_okta_url}/oauth2/default/v1/userinfo
 
 okta:
   oauth2:
-    clientId: 0oagr4swilP6cGfxC0h7
-    clientSecret: g7DPLf1hNIiCEqmeZmxyfOjmyCpxyzw6tI1p0Blf
-    issuer: https://dev-648083.oktapreview.com/oauth2/default
+    clientId: {your_client_id}
+    clientSecret: {your_client_secret}
+    issuer: https://{your_okta_url}/oauth2/default
     audience: api://default
-    accessTokenUri: https://dev-648083.oktapreview.com/oauth2/default/v1/token
-    userAuthorizationUri: https://dev-648083.oktapreview.com/oauth2/default/v1/authorize
+    accessTokenUri: https://{your_okta_url}/oauth2/default/v1/token
+    userAuthorizationUri: https://{your_okta_url}/oauth2/default/v1/authorize
