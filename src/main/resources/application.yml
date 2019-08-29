@@ -1,5 +1,3 @@
-
-
 server:
   port: 7070
 
@@ -7,13 +5,13 @@ server:
 security:
   oauth2:
     resource:
-      userInfoUri: https://{your_okta_url}/oauth2/default/v1/userinfo
+      userInfoUri: xx
 
 okta:
   oauth2:
-    clientId: {your_client_id}
-    clientSecret: {your_client_secret}
-    issuer: https://{your_okta_url}/oauth2/default
+    clientId: xx
+    clientSecret: xx
+    issuer: xx
     audience: api://default
-    accessTokenUri: https://{your_okta_url}/oauth2/default/v1/token
-    userAuthorizationUri: https://{your_okta_url}/oauth2/default/v1/authorize
+    accessTokenUri: xx
+    userAuthorizationUri: xx
